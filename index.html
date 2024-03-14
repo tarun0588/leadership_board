@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeaderBoard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1 class="title">LeaderBoard</h1>
+    <form id="form" >
+      <input required name="firstName" type="text" placeholder="First Name">
+      <input required name="lastName" type="text" placeholder="Last Name">
+      <input required name="country" type="text" placeholder="Country">
+      <input required name="playerScore" type="number" placeholder="Player Score">
+      <button class="submit-btn" type="submit">Add Player</button>
+    </form>
+    <p class="error">All fields are required</p>
+    <div class="scoreboard-wrapper"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
